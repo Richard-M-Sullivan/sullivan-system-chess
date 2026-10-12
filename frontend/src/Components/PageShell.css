@@ -1,0 +1,13 @@
+.Center {
+  /* Setup flexbox layout */
+  display: flex;
+  flex-direction: column;
+
+  /* Force the div to fill its parent's dimensions */
+  width: 100%;
+  height: 100%; /* Alternative: use 'min-height: 100vh;' if filling the whole browser screen */
+
+  /* Center items along both axes */
+  justify-content: center; /* Centers vertically (main-axis in column mode) */
+  align-items: center; /* Centers horizontally (cross-axis in column mode) */
+}

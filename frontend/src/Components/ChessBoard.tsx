@@ -1,0 +1,76 @@
+function ChessBoard() {
+  return (
+    <>
+      <div className="board-frame">
+        <div className="chessboard" aria-hidden="true">
+          <span>♜</span>
+          <span>♞</span>
+          <span>♝</span>
+          <span>♛</span>
+          <span>♚</span>
+          <span>♝</span>
+          <span>♞</span>
+          <span>♜</span>
+          <span>♟</span>
+          <span>♟</span>
+          <span>♟</span>
+          <span>♟</span>
+          <span>♟</span>
+          <span>♟</span>
+          <span>♟</span>
+          <span>♟</span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span>♙</span>
+          <span>♙</span>
+          <span>♙</span>
+          <span>♙</span>
+          <span>♙</span>
+          <span>♙</span>
+          <span>♙</span>
+          <span>♙</span>
+          <span>♖</span>
+          <span>♘</span>
+          <span>♗</span>
+          <span>♕</span>
+          <span>♔</span>
+          <span>♗</span>
+          <span>♘</span>
+          <span>♖</span>
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default ChessBoard;
