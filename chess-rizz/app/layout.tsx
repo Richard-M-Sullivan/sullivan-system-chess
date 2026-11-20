@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
+import Link from "next/link";
+
 import "./globals.css";
 
-import Link from "next/link";
+import Nav from "@/components/nav";
 
 export const metadata: Metadata = {
   title: "Chess Rizz",
@@ -15,17 +17,16 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="min-h-full flex flex-col gap-8">
 
-        <header>
-        <nav>
-            <ul>
-              <li><Link href="/">Home</Link></li>
-              <li><Link href="/tournaments">Tournaments</Link></li>
-              <li><Link href="/statistics">Statistics</Link></li>
-              <li><Link href="/study">Study</Link></li>
-              <li><Link href="/login">Login</Link></li>
-            </ul>
-          </nav>
-        </header>
+        <Nav 
+            links={[
+                {url:"/"           , text:"Home"       },
+                {url:"/tournaments", text:"Tournaments"},
+                {url:"/statistics" , text:"Statistics" },
+                {url:"/study"      , text:"Study"      },
+                {url:"/login"      , text:"Login"      },
+            ]}
+        />
+
         <main>
           {children}
         </main>
