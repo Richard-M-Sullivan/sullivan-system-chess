@@ -15,7 +15,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html
       lang="en"
     >
-      <body className="min-h-full flex flex-col gap-8">
+      <body className="bg-chess-bg min-h-full flex flex-col gap-8">
 
         <Nav 
             links={[

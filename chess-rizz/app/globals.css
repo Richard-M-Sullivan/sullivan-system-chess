@@ -1,5 +1,15 @@
 @import "tailwindcss";
 
+@theme {
+    --color-chess-bg: #f6f6f2;    
+    --color-chess-text:#78776f;
+    --color-chess-bg-light:#ffffff;
+    --color-chess-bg-dark:#e7e6de;
+    --color-chess-bg-yellow-light:#e7e6de;
+    --color-chess-bg-yellow-dark:#d0c37b;
+    --color-chess-yellow-strong:#ffd32e;
+}
+
 @layer base {
   * {
     @apply p-1 m-1;
