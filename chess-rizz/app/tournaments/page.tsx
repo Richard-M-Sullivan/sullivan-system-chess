@@ -2,8 +2,8 @@ export default function TournamentsPage() {
     return (
     <>
     <div className="flex flex-wrap gap-8">
-        <section className="flex grow flex-col gap-8 border-2 border-black">
-            <div className="">
+        <section className="bg-chess-bg-light flex grow flex-col gap-8 border-2 border-chess-bg-dark rounded-xl">
+            <div>
                 <h1>Set up your tournament</h1>
 
                 <div>
@@ -49,7 +49,7 @@ export default function TournamentsPage() {
             <button className="border border-black">Create tournament</button>
         </section>
         
-        <section className=" flex grow flex-col gap-8 border-2 border-black">
+        <section className=" flex grow flex-col gap-8 bg-chess-bg-light border-2 border-chess-bg-dark rounded-xl">
             <h1>My Tournaments</h1>
             <ul>
                 <li className="border border-black">summer rapid</li>
