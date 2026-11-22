@@ -6,8 +6,8 @@ export default function TournamentsPage() {
     <TopBanner
         title="Make it a match."
         description="Set up your event, add your players, and get your tournament ready to go."
-        src="/bN.svg"
-        hint="Select a tournament under My Tournaments to view and edit pairings"
+        src="/wN.svg"
+        hint="Select a tournament below to generate and edit pairings"
     />
     <div className="flex flex-wrap gap-8">
         <section className="bg-chess-bg-light flex grow flex-col gap-8 border-2 border-chess-bg-dark rounded-xl">
