@@ -3,6 +3,8 @@ import Link from "next/link";
 
 import "./globals.css";
 
+import {inter, spaceGrotesk} from '@/fonts/fonts'
+
 import Nav from "@/components/nav";
 
 export const metadata: Metadata = {
@@ -14,6 +16,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
+      className={inter.className}
     >
       <body className="bg-chess-bg min-h-full flex flex-col gap-8">
 
@@ -30,8 +33,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <main>
           {children}
         </main>
-        <footer>
-          <p>copyright Chess Rizz 2026</p>
+        <footer className="flex items-center justify-center">
+          <p>Copyright &copy; 2026 </p>
         </footer>
         
       </body>

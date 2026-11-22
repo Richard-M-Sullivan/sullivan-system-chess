@@ -16,7 +16,7 @@ export default function Nav({links,}) {
                         <Link
                             key={link.text}
                             href={link.url}
-                            className={`transition duration-300 rounded-full p-3 text-black ${ link.url === pathname ? "bg-chess-bg-light" : "bg-chess-bg"} hover:bg-chess-bg-dark hover:text-black`}
+                            className={`transition duration-300 rounded-full p-3 ${ link.url === pathname ? "bg-chess-bg-light text-black" : "bg-chess-bg text-chess-text"} hover:bg-chess-bg-dark hover:text-black`}
                         >{link.text}</Link> ))}
                 </ul>
             </nav>
