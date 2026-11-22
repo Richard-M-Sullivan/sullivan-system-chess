@@ -1,10 +1,16 @@
 import Link from 'next/link';
 
+import HomeBanner from '@/components/home-banner'
+
 export default function Home() {
   return (
     <>
-    <h1>Chess Rizz</h1>
-    <p>Chess tools designed for maximum rizz</p>
+        <HomeBanner 
+            title="Make every move count."
+            description="From your first tournament pairing to your next opening break through, everything you need to level up your chess lives in one place."
+            src="/chess-rizz-logo.svg"
+        />
+        
     </>
   );
 }
